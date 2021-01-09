@@ -6,7 +6,9 @@
         <meta name="viewport" content="width = device-width, initial-scale = 1">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-            
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
             h1{
                 font-family: Montserrat;
                 background-color: darkslategray;
@@ -16,14 +18,14 @@
                 text-indent: 20px;
                 padding: 0.4em;
                 margin-bottom: 0.2em;
-                grid-column: 1 / 6;
-                grid-row-start: 1;
+                /* grid-column: 1 / 6;
+                grid-row-start: 1; */
             }
             #NathanPic{
                 float: right;
-                grid-column: 5 / 6;
-                grid-row-start: 1;
-
+                position: static;
+                margin-right: 75px;
+                margin-top: 35px;
             }
             h2{
                 display: grid;
@@ -39,53 +41,60 @@
             }
             ul{
                 margin-left: 20px;
+                font-size: x-large;
             }
             #footinfo{
-                display: block;
+                display: grid;
                 text-align: center;
                 font-size: 18px;
-                padding: 0.8em;
+                padding: 0.4em;
             }
             .foottext{
-                display: block;
+                display:grid;
                 margin: 5px;
             }
 
-            .heading-grid{
+            /* .heading-grid{
                 display: grid;
                 grid-template-columns: 1fr repeat(6);
                 grid-template-rows: auto;
-            }
+            } */
 
         </style>
 
+    <script>
+     document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
     </head>
-    <header>
-        <div class="heading-grid">
-        <h1>
-            Nathan Lawrence
-        </h1>
+    <body>
 
-        <img id = "NathanPic" src="https://i.imgur.com/axjp9dO.jpg" height="375px" width="300px">
-
-    </div>
+        <header>
+            <!-- <div class="heading-grid"> -->
+          <br>
+                <img id = "NathanPic" src="https://i.imgur.com/axjp9dO.jpg" height="350px" width="255px">   
+                
+            <h1>
+                Nathan Lawrence
+            </h1>
+    
+        </header>
 
         <h2>WDD 230 Assignment Portal</h2>
-    </header>
-    <body>
+        <hr>
         <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+            <li>Lesson 02: <a href="#"> Assignment link</a></li> 
+            <li>Lesson 03: <a href="#"> Assignment link</a></li>
+            <li>Lesson 04: <a href="#"> Link</a>|<a href="#"> Link</a></li>
         </ul>
-        <br>
+
+        <footer id = "footinfo" style="clear: both;">
+            <p id="foottext"> 
+                &copy <span id="year"></span> || Nathan Lawrence || Idaho || Brigham Young Univerisity-Idaho <br>
+                Last updated 01/08/21 12:27:33 PM
+            </p>
+        </footer>
+
+
     </body>
-    <footer id = "footinfo">
-        <p class="foottext"> 
-            Copyright 2020 || Nathan Lawrence || Idaho || Brigham Young Univerisity-Idaho
-        </p>
-        <p class="foottext">
-            Last updated 01/08/21 12:27:33 PM
-        </p>
-    </footer>
 </html>
