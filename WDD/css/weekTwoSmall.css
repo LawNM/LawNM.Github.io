@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  width: 85%;
+  margin: auto;
+  background-color: #172121;
+}
+.homeGrid{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto;
+}
+
+.leftCol{
+    background-color: #f39c12;
+    grid-column: 1/2;
+    padding: 0px;
+    border-radius: 20px;
+    /* border: 10px solid white; */
+}
+.midCol{
+    background-color: #f39c12;
+    grid-column: 1/2;
+    padding: 0px;
+    border-radius: 20px;
+    /* border:10px solid white; */
+}
+.rightCol{
+    background-color: #f39c12;
+    grid-column: 1/2;
+    padding: 0px;
+    border-radius: 20px;
+    /* border: 10px solid white; */
+}
+h3{
+    font-family: Montserrat;
+    text-align: center;
+    margin: 0px;
+    background-color: #ffd700;
+    border: 20px solid gold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 22px;
+}
+img{
+    margin: auto;
+    display: block;
+}
+#pageHeader{
+    grid-column: 1/2;
+    font-family: Montserrat;
+    text-align: center;
+    background-color: #f39c12;
+    padding: 10px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.blurb{
+    font-size: 17px;
+    margin: 10px
+}
+.url{
+    text-align: center;
+}
