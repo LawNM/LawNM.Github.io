@@ -67,5 +67,11 @@ img{
 .url{
     text-align: center;
 }
+a:link{
+    color: rgb(0, 96, 128);
+}
+a:visited{
+    color: rgba(4, 27, 78, 0.808)
+}
 
 }
