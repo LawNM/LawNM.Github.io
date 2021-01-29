@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+/* ---------------------- General CSS ------------------------ */
+body{
+    background-color: #456990;
+}
+main{
+    width: 85%;
+    margin: auto;
+    background-color: white;
+}
+header{
+    text-align: center;
+    display: inline;
+}
+
+div{
+    border: 2px solid black;
+}
+.color1{
+background-color: #FEFFFE;
+}
+.color2{
+background-color: #456990;
+}
+.color3{
+background-color: #FFA10A;
+}
+
+/* ---------------------- Nav CSS ------------------------ */
+
+nav ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #FFA10A;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+}
+/* nav ul li{
+    display: inline-block;
+} */
+nav a{
+    padding: 2rem;
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+nav ul li a:link{
+    color:black;
+}
+nav ul li a:visited{
+    color: black;
+}
+nav ul li a:hover{
+    background-color: #975f05;
+}
+
+/* ---------------------- Text CSS ------------------------ */
+*{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+ }
+
+h1, h2, h3, h4, h5 h6{
+    font-family: 'Nunito', sans-serif;
+ }
+
+/* ---------------------- Footer CSS ------------------------ */
+
+#footinfo{
+    text-align: center;
+    font-size: 18px;
+    padding: 0.4em;
+}
+.foottext{
+    margin: 5px;
+}
+#updateNotice{
+    color: greenyellow;
+}
+
+
+@media (max-width: 650px){
+    nav ul{
+    
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: #FFA10A;
+        align-items: center;
+        display: block;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav a{
+        padding: 2rem;
+        display: block;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+}
