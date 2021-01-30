@@ -64,12 +64,17 @@ justify-self: center;
 
 }
 .summary{
+    display: inline;
     grid-column: 3/4;
     grid-row: 2/3;
     background-color: #FFA10A;
     margin: auto;
     justify-self: start;
-    font-size: 1.10vw;
+}
+.summary p{
+    max-width: 200px;
+    max-height: 400px;
+    overflow: hidden;
 }
 .fivedayTitle{
 display: block;
@@ -86,6 +91,8 @@ width: 90%;
     grid-row: 4/5;
     background-color: #456990;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /* .fiveDay day1, day2, day3, day4 day5{
     background-color: #456990;
