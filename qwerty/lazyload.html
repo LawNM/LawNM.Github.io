@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: #2f4f4f;
+            }
+            article img[data-src]{
+              filter: blur(0.2em);
+            }
+            img{
+                display: block;
+                margin: 3em auto 3em  auto;
+                filter: blur(0em);
+                transition: filter 0.5s;
+            }
+        </style>
+       
+    </head>
+    <body>
+        <main>
+            <img src="https://picsum.photos/300/400" data-src="http://placekitten.com/300/400">
+            <img src="https://picsum.photos/300/400" data-src="http://placekitten.com/300/400">
+            <img src="https://picsum.photos/300/400" data-src="http://placekitten.com/300/400">
+            <img src="https://picsum.photos/300/400" data-src="http://placekitten.com/300/400">
+            <img src="http://placekitten.com/300/400" data-src="https://picsum.photos/300/400"> 
+             <script src="../qwerty/imgsaver.js"></script>
+        </main>
+    </body>
+</html>
