@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>E-Weatherman</title>
+        <meta charset = "utf-8">
+        <meta name = "description" content = "Weather for the town of Preston, Idaho."> 
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+        <link rel = "stylesheet" href = "./css/large.css">  
+        <link rel = "stylesheet" href = "./css/medium.css">
+        <link rel = "stylesheet" href = "./css/small.css">
+
+        <link rel="shortcut icon" href="../Week6/favicon.ico">
+              
+
+    </head>
+
+    <body>
+
+        
+
+        <div id="eventTicker"><script src="./Week6/js/eventTicker.js"></script></div>
+    <header>
+        <picture class="logo">
+
+            <img src="./images/WeatherManIcon.png" width="70" alt="E Weatherman Logo">
+
+        </picture>
+       
+    <section class="heading">
+        <h1>
+            E-Weatherman
+        </h1>
+        <h3>
+            <em>Better than the cable forecast!</em>
+        </h3>
+    </section>
+
+    </header>
+
+
+        <nav>
+
+            <ul class="navBar">
+                <li><a href="#" onclick="toggleMenu()">&#8801;</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="/Users/mazumie/WDD/Week6/preston6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="active"><a href="#">Gallery</a></li>
+            </ul>
+            <script src="./js/toggleMenu.js"> </script>
+        </nav>
+
+        <main>
+            
+            <div class="grid-container">
+
+                <h2 id="galleryHeader">Photo Gallery</h2>
+
+                <script src="./js/imgsaver.js"></script>
+
+
+                <picture class="pic-1">
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall1.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid1.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery1.jpg"
+                    media="(min-width:1101px)"
+                    >
+                <img src="./images/gallery1.jpg" data-src="./images/gallery1.jpg" alt="" loading="lazy">
+                <div class="caption"><p>City - post rainfall</p></div>
+                    </div>
+                </picture>
+                <picture class="pic-2">
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall2.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid2.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery2.jpg"
+                    media="(min-width:1101px)"
+                    >
+                
+                <img src="./images/gallery2.jpg" data-src="" alt="" loading="lazy">
+                <div class="caption"><p>Snow - Close up</p></div>
+                    </div>
+            </picture>
+                 </picture>
+
+                 <picture class="pic-3" >
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall3.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid3.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery3.jpg"
+                    media="(min-width:1101px)"
+                    >
+                <img src="./images/gallery3.jpg" data-src="" alt="" loading="lazy">
+                <div class="caption"><p>Flowers in bloom on a sunny day</p></div>
+                    </div>
+                 </picture>
+
+                <picture class="pic-4">
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall4.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid4.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery4.jpg"
+                    media="(min-width:1101px)"
+                    >
+                <img src="./images/gallery4.jpg" data-src="" alt="" loading="lazy">
+                <div class="caption"><p>Lighting storm</p></div>
+                    </div>
+                </picture>
+
+                <picture class="pic-5" >
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall5.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid5.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery5.jpg"
+                    media="(min-width:1101px)"
+                    >
+                <img src="./images/gallery5.jpg" data-src="" alt="" loading="lazy">
+                <div class="caption"><p>Fog in a forrest</p></div>
+                    </div>
+                </picture>
+
+                <picture class="pic-6" >
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall6.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid6.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery6.jpg"
+                    media="(min-width:1101px)"
+                    >
+                <img src="./images/gallery6.jpg" data-src="" alt="" loading="lazy">
+                <div class="caption"><p>City mid-snowfall</p></div>
+                    </div>
+                </picture>
+
+                <picture class="pic-7" >
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall7.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid7.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery7.jpg"
+                    media="(min-width:1101px)"
+                    >
+                <img src="./images/gallery7.jpg" data-src="" alt="" loading="lazy">
+                <div class="caption"><p>Clouds and Moon</p></div>
+                    </div>
+                </picture>
+
+                <picture class="pic-8">
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall8.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid8.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery8.jpg"
+                    media="(min-width:1101px)"
+                    >
+                <img src="./images/gallery8.jpg" data-src="" alt="" loading="lazy">
+                <div class="caption"><p>Storm from space</p></div>
+                    </div>
+                </picture>
+
+                <picture class="pic-9" >
+                    <div class="polaroid">
+                    <source
+                    srcset="./images/galsmall9.jpg"
+                    media="(max-width:700px)"
+                    >
+                    <source
+                    srcset="./images/galMid9.jpg"
+                    media="(min-width:701px) and (max-width:1100px)"
+                    >
+                    <source
+                    srcset="./images/gallery9.jpg"
+                    media="(min-width:1101px)"
+                    >
+                <img src="./images/gallery9.jpg" data-src="" alt="" loading="lazy">
+                <div class="caption"><p>Sunset at sea</p></div>
+                    </div>
+                </picture>
+
+            </div>
+
+
+    </main>
+
+        <footer id = "footinfo">
+            <div class="grid-footer">
+
+                <iframe id="footmap1" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23685.09892061703!2d-111.87019746747576!3d42.09381866075526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1612210360926!5m2!1sen!2sus" width="400" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                <!-- <img class="footlogo" src="../siteplan/WeatherManIcon.png" width="70" alt="E Weatherman Logo"> -->
+
+            <div id="footlinks">
+                <ul>
+                    <li>Phone: 555-1234</li>
+                    <li>Email: eweatherman@fake.net</li>
+                    <li>Address: 1234 Viking St</li>
+                </ul>
+
+            </div>
+            <div class="footsocial">
+                <img class="media1" src="./images/iconfinder_1_Facebook_colored_svg_copy_5296499.png" alt="Facebook Icon" width="75">
+                <img class="media2" src="./images/iconfinder_2018_social_media_popular_app_logo_instagram_3225191.png" alt="Twitter Icon" width="75">
+                <img class="media3" src="./images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183 (2).png" alt="Instagram Icon" width="75">
+            </div>
+
+            <p id="foottext"> 
+                &copy; <span id = "year"></span> | Nathan Lawrence | Idaho | <a href = "https://www.byui.edu/online">BYU-I Online Learning</a><br>
+               <span id="updateNotice"> Last Updated: <span id="lastMod"></span></span>
+                
+            </p>
+            </div>
+        </footer>
+
+        <script src = "../siteplan/getYear.js"> </script>
+        <script src = "../siteplan/lastMod.js"> </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({google: {families:['Nunito:900']}});
+        </script>
+    </body>
+</html>
