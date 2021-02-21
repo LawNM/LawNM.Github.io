@@ -47,7 +47,7 @@
        background-color: #FEFFFE;
        margin: auto;
     } */
-    .grid-container{
+    .grid-containerGal{
         display: grid;
         gap: 0.5em;
         grid-template-columns: 1fr;
