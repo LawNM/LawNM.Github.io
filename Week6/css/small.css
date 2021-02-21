@@ -116,6 +116,49 @@
         grid-column: 1/7;
         grid-row: 7/8;
     }
+    .grid-containerGal{
+        display: grid;
+        gap: 0.5em;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        /* justify-items: center; */
+    }
+    #galleryHeader{
+        font-size: 3em;
+        margin-left: 40px;
+        width: 95%;
+        margin: auto;
+        grid-column: 1/2;
+    
+    }
+    .pic-1{
+    grid-column: 1/2;
+    }
+    .pic-2{
+    grid-column: 1/2;
+    }
+    .pic-3{
+    grid-column: 1/2;
+    }
+    .pic-4{
+    grid-column: 1/2;
+    }
+    .pic-5{
+    grid-column: 1/2;
+    }
+    .pic-6{
+    grid-column: 1/2;
+    }
+    .pic-7{
+    grid-column: 1/2;
+    }
+    .pic-8{
+    grid-column: 1/2;
+    }
+    .pic-9{
+    grid-column: 1/2;
+    }
+    
 /* ---------------------- Nav CSS ------------------------ */
 nav ul{
     

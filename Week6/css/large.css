@@ -126,6 +126,67 @@ width: 90%;
     width: 90%;
     margin: auto;
 }
+.grid-containerGal{
+    display: grid;
+    gap: 0.5em;
+    padding: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+#galleryHeader{
+    font-size: 3em;
+    /* margin-left: 40px; */
+    width: 95%;
+    margin: auto;
+    grid-column: 1/4;
+
+}
+.pic-1{
+grid-column: 1/2;
+}
+.pic-2{
+grid-column: 2/3;
+}
+.pic-3{
+grid-column: 3/4;
+}
+.pic-4{
+grid-column: 1/2;
+}
+.pic-5{
+grid-column: 2/3;
+}
+.pic-6{
+grid-column: 3/4;
+}
+.pic-7{
+grid-column: 1/2;
+}
+.pic-8{
+grid-column: 2/3;
+}
+.pic-9{
+grid-column: 3/4;
+}
+div.polaroid{
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+div.polaroid:hover{
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-bottom: 25px; */
+}
+div.caption{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
 /* ---------------------- Nav CSS ------------------------ */
 
 
