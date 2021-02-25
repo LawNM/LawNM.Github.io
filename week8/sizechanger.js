@@ -1,0 +1,1 @@
+document.getElementsByClassName["input-1"].setAttribute("value", "20");
