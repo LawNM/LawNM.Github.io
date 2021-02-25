@@ -5,6 +5,7 @@
 
             *{
                 font-family: Ubuntu, sans-serif;
+                text-align: center;
             }
             h2{
                 background-color: #7fb9c2;
@@ -16,6 +17,7 @@
             table{
                 margin: auto;
                 background-color: lightgray;
+                text-align: center;
             }
 
             th{
@@ -30,6 +32,13 @@
             }
             #two{
                 text-align: center;
+            }
+            #blue{
+                background-color: #7fb9c2;
+                color: white;
+            }
+            #foot{
+                background-color: #7fb9c2;
             }
 
         </style>
@@ -67,7 +76,7 @@
                         <tr>
                             <td>November</td>
                             <td>$8,610</td>
-                            <td>$7,500</td>
+                            <td id="blue">$7,500</td>
                         </tr>
                         <tr>
                             <td>Black Friday</td>
@@ -81,7 +90,11 @@
 
                     </tbody>
                     <tfoot>
-
+                        <tr>
+                            <td id="foot" colspan="3">
+                                Nathan Lawrence 02.24.21
+                            </td>
+                        </tr>
                     </tfoot>
             </table>
         </div>
