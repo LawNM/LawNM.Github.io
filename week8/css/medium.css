@@ -166,14 +166,7 @@
     .input-box label{
         display: block;
     }
-    .SubmitButton{
-        justify-self: right;
-        text-align: right;
-    
-    }
-    .SubmitInput{
-        background-color: red;
-    }
+
     /* ---------------------- Nav CSS ------------------------ */
     
     

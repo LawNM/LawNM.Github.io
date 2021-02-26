@@ -1,0 +1,40 @@
+
+            @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+            *{
+                font-family: Ubuntu, sans-serif;
+                text-align: center;
+            }
+            h2{
+                background-color: #7fb9c2;
+                text-align: center;
+                width: 20%;
+                margin: auto;
+            }
+
+            table{
+                margin: auto;
+                background-color: lightgray;
+                text-align: center;
+            }
+
+            th{
+                background-color: #628ca6;
+                color: white;
+            }
+            tr{
+                background-color: #e7f0ed;
+            }
+            tr:nth-child(2n){
+                background-color:  #e7ffed;
+            }
+
+            tfoot tr{
+                background-color: #7fb9c2;
+                font-size: smaller;
+            }
+            .highlight{
+                background-color: #628ca6;
+                color: white;
+            }
