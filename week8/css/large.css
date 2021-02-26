@@ -192,12 +192,13 @@ div.caption{
     width: 60%;
     border-radius: 18px;
     padding: 8px;
+    padding-bottom: 36px;
 
     color: white; 
 
 
 }
-#stormForm input{
+.input-box input{
     background-color: #456990;
     color: white;
     border: none;
@@ -257,6 +258,20 @@ box-shadow: none;
 button a :visited{
 color: black;
 }
+/* .SubmitButton{
+} */
+.SubmitInput{
+    background-color: #FFA10A;
+    color: black;
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+}
+
 /* ---------------------- Nav CSS ------------------------ */
 
 
