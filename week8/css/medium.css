@@ -154,18 +154,6 @@
     .pic-9{
     grid-column: 1/3;
     }
-    .input-box label{
-        display: block;
-    }
-    .input-box{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-    }
-    .input-box label{
-        display: block;
-    }
 
     /* ---------------------- Nav CSS ------------------------ */
     

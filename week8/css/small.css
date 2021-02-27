@@ -158,23 +158,13 @@
     .pic-9{
     grid-column: 1/2;
     }
-    .input-box label{
-        display: block;
-    }
-    .input-box{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-    }
-    .input-box label{
-        display: none;
-    }
+
     .radiostar{
         display: flex;
         flex-direction: column;
     }
 
+   
 /* ---------------------- Nav CSS ------------------------ */
 nav ul{
     

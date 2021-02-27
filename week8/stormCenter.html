@@ -42,17 +42,16 @@
             <ul class="navBar">
                 <li><a href="#" onclick="toggleMenu()">&#8801;</a></li>
                 <li><a href="#">Home</a></li>
-                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
+                <li class="active"><a href="#">Storm Center</a></li>
                 <li><a href="/Users/mazumie/WDD/week7/gallery.html">Gallery</a></li>
             </ul>
             <script src="./js/toggleMenu.js"> </script>
         </nav>
 
         <main>
-    <div class="grid-form">
 
         <div class="city" >
             <h2>
@@ -60,70 +59,86 @@
                 <!-- action="/Users/mazumie/WDD/week8/thanks.html" method="get" -->
             </h2>
         </div>    
+        
         <div id="stormForm">
             <form action="/Users/mazumie/WDD/week8/thanks.html">
+    
                 <div class="input-box">
-                <label>Full Name:</label>
-                <input type="text" value="Full Name" size="20"><br>
+                <label> <div class="title"> Full Name<span id="req">*</span>: </div>
+                <input type="text" placeholder="Full Name" name="fullName" required><br>
+                </label>
                 </div>
 
-                <!-- <div class="input-box">
-                <label>E-Mail:</label>
-                <input type="email" value="E-mail" size="20"><br>
-                </div> -->
-                
                 <div class="input-box">
-                <label>Phone:</label>
-                <input type="tel" value="Phone" size="20"><br>
+                <label> <div class="title"> E-Mail: </div>
+                <input type="email" placeholder="E-mail" name="email"required><br>
+                </label>
                 </div>
                 
                 <div class="input-box">
-                <label>Postal Code:</label>
-                <input type="number" value="00000" size="20"><br>
+                <label> <div class="title"> Phone<span id="req">*</span>: </div>
+                <input type="tel" placeholder="Phone" name="phone" required><br>
+                </label>
                 </div>
                 
                 <div class="input-box">
-                <label>Storm Date:</label>
-                <input type="date" size="20"><br>
+                <label> <div class="title"> Postal Code<span id="req">*</span>: </div>
+                <input type="number" placeholder="00000"><br>
+                </label>
                 </div>
                 
                 <div class="input-box">
-                <label>Storm type:</label>
+                <label> <div class="title"> Storm Date: </div>
+                <input type="date" placeholder="mm/dd/yyyy" ><br>
+                </label>
+                </div>
+                
+                <div class="input-box">
+                <label> <div class="title"> Storm type: </div>
                 <input list="stormType"><br>
+                </label>
                 </div>
                 
                 <div class="input-box">
-                <label>Severity:</label>
-                <input type="range" size="60" min="0" max="10" id="stormRating"> <p class="inlinep">Level: <span id="SeverityOutput"></span></p> 
+                <label> <div class="title"> Severity: </div>
+                <input type="range" size="60" min="0" max="10" id="stormRating"> <p class="inlinep">Level: <span id="SeverityOutput"></span></p>
+                </label>
 
                 </div>
                 
 
                 <div class="input-box">
-                <label>Select Town:</label>
+                <label>Select Region:<br>
                 <select>
-                    <option selected disabled>Hometown</option>
+                    <option selected disabled>Storm Region</option>
                     <option>Soda Springs</option>
                     <option>Preston</option>
                     <option>Fish Haven</option>
-                </select>
+                </select> </label>
                 </div><br>
 
                 <div class="input-box2">    
-                <label>Are you in danger?</label>
-                <input type="radio" name="danger">
-                <label>Yes</label>
-                <input type="radio" name="danger">
-                <label>No</label>
-                <input type="radio" name="danger">
-                <label>Maybe</label>
-                </div><br>
+                <label>Are you in danger?</label><br>
+                <label>
+                    <input type="radio" name="danger" value="Yes"> Yes
+                </label><br>
+                <label>
+                    <input type="radio" name="danger" value="No"> No
+                </label><br>
+                <label>
+                    <input type="radio" name="danger" value="Maybe"> Maybe
+                </label>
+
+            
                 
                 <div class="comments">
+                    <br>
+                    <label Additional comments>
                 <textarea rows="14" cols="100"></textarea>
+            </label>
                 </div>
 
-
+                <p>All fields with the red aesterisk <span id="req">*</span> are required.</p>
                 <div class="orange">
                 <a href="/Users/mazumie/WDD/week8/thanks.html" class="SubmitButton">
                 <input type="submit" value="Submit" class="SubmitInput">
@@ -144,11 +159,9 @@
                 
                 <script src="./js/spanchanger.js"></script>
 
-            </form>
+            </form> 
+           
         </div>
-    
-   
-    </div>
 
     </main>
 

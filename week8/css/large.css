@@ -187,17 +187,30 @@ div.caption{
 
 #stormForm{
     background-color: #456990;
-    grid-column: 1/7;
-    margin: auto;
+    margin: auto auto 25px auto;
     width: 60%;
     border-radius: 18px;
     padding: 8px;
-    padding-bottom: 36px;
-
     color: white; 
-
-
 }
+
+#stormForm{
+    background-color: #456990;
+    margin: auto auto 25px auto;
+    width: 60%;
+    border-radius: 18px;
+    padding: 8px;
+    color: white; 
+}
+
+
+.input-box{
+    box-sizing: content-box;
+}
+.input-box label{
+    display: block;
+}
+
 .input-box input{
     background-color: #456990;
     color: white;
@@ -205,34 +218,29 @@ div.caption{
     box-shadow: none;
     border-bottom: solid white 2px;
     justify-self: center;
+    padding: 10px;
+    font-size: 15px;
+    width: 96%;
 }
+.input-box ::placeholder{
+    color: rgba(209, 209, 209, 0.3)
+}
+
 #stormForm form{
     margin: 20px;
+   
 }
 
 .inlinep{
     display: inline;
 }
-.textwrapper{
-    border: 1px none;
-}
+
 textarea{
 max-width: 100%;
 max-height: 100%;
 overflow: none;
 }
-.input-box label{
-    display: block;
-}
-.input-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-}
-.input-box label{
-    display: block;
-}
+
 .comments{
     text-align: center;
     justify-self: center;
@@ -268,8 +276,12 @@ color: black;
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
-    margin-bottom: 20px;
-    float: right;
+}
+.marginbuf{
+    margin-top: 25px;
+}
+#req{
+    color: red;
 }
 
 /* ---------------------- Nav CSS ------------------------ */
