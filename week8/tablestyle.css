@@ -26,6 +26,9 @@
             tr{
                 background-color: #e7f0ed;
             }
+            td{
+                padding: 4px;
+            }
             tr:nth-child(2n){
                 background-color:  #e7ffed;
             }
