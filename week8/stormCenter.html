@@ -17,7 +17,7 @@
 
     <body>
 
-        <div id="eventTicker"><script src="./Week6/js/eventTicker.js"></script></div>
+        <div id="eventTicker"><script src="./js/eventTicker.js"></script></div>
     <header>
         <picture class="logo">
 
@@ -46,7 +46,7 @@
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li class="active"><a href="#">Storm Center</a></li>
-                <li><a href="/Users/mazumie/WDD/week7/gallery.html">Gallery</a></li>
+                <li><a href="../week7/gallery.html">Gallery</a></li>
             </ul>
             <script src="./js/toggleMenu.js"> </script>
         </nav>
@@ -61,55 +61,56 @@
         </div>    
         
         <div id="stormForm">
-            <form action="/Users/mazumie/WDD/week8/thanks.html">
+            <form action="../week8/thanks.html">
     
                 <div class="input-box">
-                <label> <div class="title"> Full Name<span id="req">*</span>: </div>
-                <input type="text" placeholder="Full Name" name="fullName" required><br>
+                <label> Full Name<span class="req">*</span>:<br>
+                <input type="text" placeholder="Full Name" name="fullName" minlength="5" pattern="[A-Za-Z]" required><br>
                 </label>
                 </div>
 
                 <div class="input-box">
-                <label> <div class="title"> E-Mail: </div>
-                <input type="email" placeholder="E-mail" name="email"required><br>
+                <label> E-Mail:<br>
+                <input type="email" placeholder="E-mail | example@faux.net" name="email" required><br>
                 </label>
                 </div>
                 
                 <div class="input-box">
-                <label> <div class="title"> Phone<span id="req">*</span>: </div>
+                <label> Phone<span class="req">*</span>:<br>
                 <input type="tel" placeholder="Phone" name="phone" required><br>
                 </label>
                 </div>
                 
                 <div class="input-box">
-                <label> <div class="title"> Postal Code<span id="req">*</span>: </div>
-                <input type="number" placeholder="00000"><br>
+                <label> Postal Code<span class="req">*</span>:<br>
+                <input type="number" name="postalcode" placeholder="00000"><br>
                 </label>
                 </div>
                 
                 <div class="input-box">
-                <label> <div class="title"> Storm Date: </div>
-                <input type="date" placeholder="mm/dd/yyyy" ><br>
+                <label>Storm Date:<br>
+                <input type="date" name="date"><br>
                 </label>
                 </div>
                 
                 <div class="input-box">
-                <label> <div class="title"> Storm type: </div>
-                <input list="stormType"><br>
+                <label> Storm type:<br>
+                <input list="stormType" name="type"><br>
                 </label>
                 </div>
                 
                 <div class="input-box">
-                <label> <div class="title"> Severity: </div>
-                <input type="range" size="60" min="0" max="10" id="stormRating"> <p class="inlinep">Level: <span id="SeverityOutput"></span></p>
+                <label> Severity:<br>
+                <input type="range" min="0" max="10" id="stormRating" name="level">
                 </label>
+                <p class="inlinep">Level: <span id="SeverityOutput"></span></p>
 
                 </div>
                 
 
                 <div class="input-box">
                 <label>Select Region:<br>
-                <select>
+                <select name="Region">
                     <option selected disabled>Storm Region</option>
                     <option>Soda Springs</option>
                     <option>Preston</option>
@@ -128,21 +129,20 @@
                 <label>
                     <input type="radio" name="danger" value="Maybe"> Maybe
                 </label>
+                </div>
 
             
                 
                 <div class="comments">
                     <br>
-                    <label Additional comments>
-                <textarea rows="14" cols="100"></textarea>
+                    <label> Additional comments
+                <textarea name="comments" rows="14" cols="100"></textarea>
             </label>
                 </div>
 
                 <p>All fields with the red aesterisk <span id="req">*</span> are required.</p>
                 <div class="orange">
-                <a href="/Users/mazumie/WDD/week8/thanks.html" class="SubmitButton">
                 <input type="submit" value="Submit" class="SubmitInput">
-                </a>
             </div>
 
             
@@ -159,16 +159,15 @@
                 
                 <script src="./js/spanchanger.js"></script>
 
-            </form> 
            
         </div>
-
+<br>
     </main>
 
         <footer id = "footinfo">
             <div class="grid-footer">
 
-                <iframe id="footmap1" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23685.09892061703!2d-111.87019746747576!3d42.09381866075526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1612210360926!5m2!1sen!2sus" width="400" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe id="footmap1" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23685.09892061703!2d-111.87019746747576!3d42.09381866075526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1612210360926!5m2!1sen!2sus" width="400" height="220" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
                 <!-- <img class="footlogo" src="../siteplan/WeatherManIcon.png" width="70" alt="E Weatherman Logo"> -->
 
@@ -183,7 +182,7 @@
             <div class="footsocial">
                 <img class="media1" src="./images/iconfinder_1_Facebook_colored_svg_copy_5296499.png" alt="Facebook Icon" width="75">
                 <img class="media2" src="./images/iconfinder_2018_social_media_popular_app_logo_instagram_3225191.png" alt="Twitter Icon" width="75">
-                <img class="media3" src="./images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183 (2).png" alt="Instagram Icon" width="75">
+                <img class="media3" src="./images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183(2).png" alt="Instagram Icon" width="75">
             </div>
 
             <p id="foottext"> 
