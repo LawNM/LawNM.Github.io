@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./prophets.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+            main{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            section{
+                background-color: #b1aebe;
+                border: 1px solid #4e4292;
+            }
+            img{
+                max-width: 70%;
+                margin: auto;
+            }
+            .cards{
+                grid-column: 1/2;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-gap: 0.65rem;
+                box-shadow: 0px 0px 30px;
+                
+            }
+            h1{
+                color: #4e4292; 
+                font-family: Kadwa, sans-serif;
+                font-weight: 700;
+                text-align: center;
+                
+            }
+            h2{
+                color: #4e4292;
+                font-family: Kadwa, sans-serif;
+                font-weight: 700;
+                
+            }
+            p{
+                font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            }
+            .cardNo0 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo1{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo2{
+                grid-column: 3/4;
+                text-align: center;
+            }
+            .cardNo3{
+                grid-column: 4/5;
+                text-align: center;
+            }
+            .cardNo4 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo5{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo6{
+                grid-column: 3/4;
+                text-align: center;
+            }
+            .cardNo7{
+                grid-column: 4/5;
+                text-align: center;
+            }
+            .cardNo8 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo9{
+                grid-column: 2/3;
+                text-align: center;
+            } 
+            .cardNo10{
+                grid-column: 3/4;
+                text-align: center;
+            }
+            .cardNo11{
+                grid-column: 4/5;
+                text-align: center;
+            }
+            .cardNo12 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo13{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo14{
+                grid-column: 3/4;
+                text-align: center;
+            }
+            .cardNo15{
+                grid-column: 4/5;
+                text-align: center;
+            }
+            .cardNo16 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+
+            @media (max-width: 1100px){
+            .cards{
+                grid-column: 1/2;
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                grid-gap: 0.65rem;
+                box-shadow: 0px 0px 30px;
+            }                
+             .cardNo0 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo1{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo2{
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo3{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo4 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo5{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo6{
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo7{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo8 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo9{
+                grid-column: 2/3;
+                text-align: center;
+            } 
+            .cardNo10{
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo11{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo12 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo13{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo14{
+                grid-column: 1/2;
+                text-align: center;
+            }
+            .cardNo15{
+                grid-column: 2/3;
+                text-align: center;
+            }
+            .cardNo16 {
+                grid-column: 1/2;
+                text-align: center;
+            }
+            @media (max-width: 700px){
+            .cards{
+                grid-column: 1/2;
+                display: block;
+                box-shadow: 0px 0px 30px;
+            }                
+             .cardNo0 {
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo1{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo2{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo3{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo4 {
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo5{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo6{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo7{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo8 {
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo9{
+                margin: 0.65rem;
+                text-align: center;
+            } 
+            .cardNo10{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo11{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo12 {
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo13{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo14{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo15{
+                margin: 0.65rem;
+                text-align: center;
+            }
+            .cardNo16 {
+                margin: 0.65rem;
+                text-align: center;
+            }
+        }
+
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Latter-Day Prophets</h1>
+        </header>
+        <main>
+            <div class="cards"></div>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
