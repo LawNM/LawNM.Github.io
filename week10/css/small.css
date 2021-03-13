@@ -74,7 +74,7 @@
     } */
     .summary{
         position: static;
-        display: grid;
+        display: block;
         grid-column: 1/7;
         grid-row: 3/4;
         background-color: #FFA10A;
@@ -256,7 +256,7 @@ padding: 0;
     grid-row: 4/5;
 }
 #updateNotice{
-    color: greenyellow;
+    color: rgb(14, 49, 9);
 }
 
 #current-temp{
@@ -267,27 +267,43 @@ padding: 0;
 #left2{
     grid-column: 1/2;
     justify-self: start;
+    display: inline;
 }
 #description{
     margin-top: 2px;
     margin-bottom:  2px;
     grid-column: 2/3;
+    display: inline;
 }
 #left3{
     grid-column: 1/2;
     justify-self: start;
+    display: inline;
 }
 #humidity{
     grid-column: 2/3;
+    display: inline;
 }
 
 #left4{
     grid-column: 1/2;
     justify-self: start;
+    display:inline;
 }
 #windSpeed{
     grid-column: 2/3;
+    display: inline;
 }
+    #line2{
+        display: block;
+    }
+    #line3{
+        display: block;
+    }
+    #line4{
+        display: block;
+    }
+
 
 
 }

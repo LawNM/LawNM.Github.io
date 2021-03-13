@@ -64,15 +64,15 @@
     <picture class>
 
         <source
-        srcset="./images/sHolder.png"
+        srcset="./images/SBHeroimgsmol.jpg"
         media="(max-width:700px)"
         >
         <source
-        srcset="./images/mHolder.png"
+        srcset="./images/SBHeroimgMid.jpg"
         media="(min-width:701px) and (max-width:1100px)"
         >
         <source
-        srcset="./images/bHolder.png"
+        srcset="./images/SBHeroimg.png"
         media="(min-width:1101px)"
         >
                           
@@ -81,9 +81,18 @@
         
             <div class="summary">
                <p id="current-temp"></p>
-               <p id="left2">Currently:&nbsp</p> <p id="description"></p> 
-               <p id="left3">Humidity:&nbsp</p> <p id="humidity"></p> 
-               <p id="left4">Wind Speed:&nbsp</p> <p id="windSpeed"></p>
+               <div id="line2">
+               <p id="left2">Currently:&nbsp;</p> <p id="description"></p>
+               </div>
+               <div id="line3"> 
+               <p id="left3">Humidity:&nbsp;</p> <p id="humidity"></p>
+               </div>
+               <div id="line4"> 
+               <p id="left4">Wind Speed:&nbsp;</p> <p id="windSpeed"></p>
+               </div>
+               <div id="line5"> 
+                <p id="left5">Wind Chill:&nbsp;</p> <p id="output"></p>
+                </div>
                 <script src="./js/windchill.js"></script>
             </div>
 </div>
@@ -93,25 +102,28 @@
         <div class="fivedayTitle"><h3>Five Day</h3></div>
         <div class="fiveDay">
 
-               <div class="day1"> <img src="./images/snowicon.png" alt="Weather Icon" width="100"> 
-           <span> <p id="mon"></p></div> 
-               <div class="day2"> <img src="./images/overcastIcon.png" alt="Weather Icon" width="100"> 
-           <span> <p id="tue"></p></div> 
-               <div class="day3"> <img src="./images/sunIcon.png" alt="Weather Icon" width="100">
-           <span> <p id="wed"></p></div> 
-               <div class="day4"> <img src="./images/overcastIcon.png" alt="Weather Icon" width="100">
-           <span> <p id="thur"></p></div> 
-               <div class="day5"> <img src="./images/snowicon.png" alt="Weather Icon" width="100">
-           <span> <p id="fri"></p></div> 
+            <script src="./js/findDay.js"></script>
+
+               <div class="day1"> <p id="dia1"></p><img id="icon1" src="./images/snowicon.png" alt="Weather Icon" width="100"> 
+            <p id="mon"></p></div> 
+               <div class="day2"> <p id="dia2"></p><img id="icon2" src="./images/overcastIcon.png" alt="Weather Icon" width="100"> 
+            <p id="tue"></p></div> 
+               <div class="day3"> <p id="dia3"></p><img id="icon3" src="./images/sunIcon.png" alt="Weather Icon" width="100">
+            <p id="wed"></p></div> 
+               <div class="day4"> <p id="dia4"></p><img id="icon4" src="./images/overcastIcon.png" alt="Weather Icon" width="100">
+            <p id="thur"></p></div> 
+               <div class="day5"> <p id="dia5"></p><img id="icon5" src="./images/snowicon.png" alt="Weather Icon" width="100">
+            <p id="fri"></p></div> 
 
         </div>
 
+        
         <script src="./js/weatherReader.js"></script>
 
         <div class="article">
             <h3>Article Title</h3>
             <p>
-                <img class="pancakesPic" src="./images/nikldn-qp7WA8AV2x0-unsplash.jpg" width="500px">
+                <img class="pancakesPic" src="./images/nikldn-qp7WA8AV2x0-unsplash.jpg" width="500" alt="A stack of pancakes">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu mattis arcu, sagittis commodo urna. Quisque aliquet 
                 vestibulum gravida. Maecenas laoreet est at quam lacinia faucibus. Phasellus eget vehicula velit, vel venenatis sem. 
                 Nulla tincidunt velit ac erat ultricies, sit amet tincidunt nibh gravida. Vestibulum nec finibus risus. Mauris ut enim
@@ -155,7 +167,7 @@
         <footer id = "footinfo">
             <div class="grid-footer">
 
-                <iframe id="footmap1" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23685.09892061703!2d-111.87019746747576!3d42.09381866075526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1612210360926!5m2!1sen!2sus" width="400" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe id="footmap1" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23685.09892061703!2d-111.87019746747576!3d42.09381866075526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1612210360926!5m2!1sen!2sus" width="400" height="220" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
                 <!-- <img class="footlogo" src="../siteplan/WeatherManIcon.png" width="70" alt="E Weatherman Logo"> -->
 
@@ -170,7 +182,7 @@
             <div class="footsocial">
                 <img class="media1" src="./images/iconfinder_1_Facebook_colored_svg_copy_5296499.png" alt="Facebook Icon" width="75">
                 <img class="media2" src="./images/iconfinder_2018_social_media_popular_app_logo_instagram_3225191.png" alt="Twitter Icon" width="75">
-                <img class="media3" src="./images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183 (2).png" alt="Instagram Icon" width="75">
+                <img class="media3" src="./images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183(2).png" alt="Instagram Icon" width="75">
             </div>
 
             <p id="foottext"> 

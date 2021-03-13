@@ -251,8 +251,6 @@
         grid-row: 3/4;
     }
     #updateNotice{
-        color: greenyellow;
+        color: rgb(14, 49, 9);
     }
-    
-    
-    }
+}

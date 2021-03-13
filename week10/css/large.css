@@ -68,8 +68,8 @@ grid-column: 1/7;
 grid-row: 2/3;
 justify-self: center;
 position: relative;
-width: 1200;
-height: 500;
+width: 1200px;
+height: 500px;
 max-width: 100%;
 border: 3px dashed red;
 }
@@ -188,7 +188,36 @@ div.caption{
     padding: 10px 20px;
 }
 
-
+#dia1{
+    background-color: lightgray;
+}
+#mon{
+    background-color: lightgray;
+}
+#dia2{
+    background-color: lightgray;
+}
+#tue{
+   background-color: lightgray; 
+}
+#dia3{
+    background-color: lightgray;
+}
+#wed{
+    background-color: lightgray;
+}
+#dia4{
+    background-color: lightgray;
+}
+#thur{
+    background-color: lightgray;
+}
+#dia5{
+    background-color: lightgray;
+}
+#fri{
+    background-color: lightgray;
+}
 
 
 /* ---------------------- Nav CSS ------------------------ */
@@ -289,7 +318,7 @@ padding: 0;
     grid-row: 3/4;
 }
 #updateNotice{
-    color: greenyellow;
+    color: rgb(14, 49, 9);
 }
 #current-temp{
     margin-top: 2px;
@@ -332,5 +361,15 @@ padding: 0;
     margin-top: 2px;
     margin-bottom: 2px;
 }
-
+#left5{
+    grid-column: 1/2;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    justify-self: end;
+}
+#output{
+    grid-column: 2/3;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 
