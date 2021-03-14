@@ -34,6 +34,28 @@ fetch (castURL)
         days[8] = "Monday";
         days[9] = "Tuesday";
         days[10] = "Wednesday";
+        days[11] = "Thursday";
+        days[12] = "Friday";
+        days[13] = "Saturday";
+        days[14] = "Sunday";
+        days[15] = "Monday";
+        days[16] = "Tuesday";
+        days[17] = "Wednesday";
+        days[18] = "Thursday";
+        days[19] = "Friday";
+        days[20] = "Saturday";
+        days[21] = "Sunday";
+        days[22] = "Monday";
+        days[23] = "Tuesday";
+        days[24] = "Wednesday";
+        days[25] = "Thursday";
+        days[26] = "Friday";
+        days[27] = "Saturday";
+        days[28] = "Sunday";
+        days[29] = "Monday";
+        days[30] = "Tuesday";
+        days[31] = "Wednesday";
+        
     
         let day = new Date();
         var d = day.getDay();
