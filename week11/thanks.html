@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>E-Weatherman</title>
+        <meta charset = "utf-8">
+        <meta name = "description" content = "Weather for the town of Preston, Idaho."> 
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+        <link rel = "stylesheet" href = "./css/large.css">  
+        <link rel = "stylesheet" href = "./css/medium.css">
+        <link rel = "stylesheet" href = "./css/small.css">
+
+        <link rel="shortcut icon" href="../Week6/favicon.ico">
+              
+
+    </head>
+
+    <body>
+
+        <div id="eventTicker"><script src="./Week6/js/eventTicker.js"></script></div>
+    <header>
+        <picture class="logo">
+
+            <img src="./images/WeatherManIcon.png" width="70" alt="E Weatherman Logo">
+
+        </picture>
+       
+    <section class="heading">
+        <h1>
+            E-Weatherman
+        </h1>
+        <h3>
+            <em>Better than the cable forecast!</em>
+        </h3>
+    </section>
+
+    </header>
+
+
+        <nav>
+
+            <ul class="navBar">
+                <li><a href="#" onclick="toggleMenu()">&#8801;</a></li>
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="/Users/mazumie/WDD/week7/gallery.html">Gallery</a></li>
+            </ul>
+            <script src="./js/toggleMenu.js"> </script>
+        </nav>
+
+        <main>
+<div class="ThankYou">
+<h1>
+    Thank you!
+</h1>
+<h2>
+    Your entry will be reviewed shortly!
+</h2>
+<h6>
+    All entries are reviewed by our metorologists. If you are currently or possibly in danger, please stay close to were you are. Your location is being estimated by your IP address. Find adeqate shelter while the local emergency servies come to get you.
+</h6>
+
+</div>
+    </main>
+
+        <footer id = "footinfo">
+            <div class="grid-footer">
+
+                <iframe id="footmap1" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23685.09892061703!2d-111.87019746747576!3d42.09381866075526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1612210360926!5m2!1sen!2sus" width="400" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                <!-- <img class="footlogo" src="../siteplan/WeatherManIcon.png" width="70" alt="E Weatherman Logo"> -->
+
+            <div id="footlinks">
+                <ul>
+                    <li>Phone: 555-1234</li>
+                    <li>Email: eweatherman@fake.net</li>
+                    <li>Address: 1234 Viking St</li>
+                </ul>
+
+            </div>
+            <div class="footsocial">
+                <img class="media1" src="./images/iconfinder_1_Facebook_colored_svg_copy_5296499.png" alt="Facebook Icon" width="75">
+                <img class="media2" src="./images/iconfinder_2018_social_media_popular_app_logo_instagram_3225191.png" alt="Twitter Icon" width="75">
+                <img class="media3" src="./images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183 (2).png" alt="Instagram Icon" width="75">
+            </div>
+
+            <p id="foottext"> 
+                &copy; <span id = "year"></span> | Nathan Lawrence | Idaho | <a href = "https://www.byui.edu/online">BYU-I Online Learning</a><br>
+               <span id="updateNotice"> Last Updated: <span id="lastMod"></span></span>
+                
+            </p>
+            </div>
+        </footer>
+
+        <script src = "../siteplan/getYear.js"> </script>
+        <script src = "../siteplan/lastMod.js"> </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({google: {families:['Nunito:900']}});
+        </script>
+    </body>
+</html>
