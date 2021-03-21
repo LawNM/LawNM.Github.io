@@ -15,6 +15,7 @@ fetch(requestURL)
         let events0 = document.createElement("li");
         let events1 = document.createElement("li");
         let events2 = document.createElement("li");
+        let br = document.createElement("br");
 
 
 
@@ -23,12 +24,13 @@ fetch(requestURL)
         EventCard1.appendChild(title1);
         EventCard1.appendChild(hr1)
         EventCard1.appendChild(ul1)
-        events0.textContent = towns[6].events[0]
+        events0.textContent = towns[0].events[0]
         ul1.appendChild(events0);
-        events1.textContent = towns[6].events[1]
+        events1.textContent = towns[0].events[1]
         ul1.appendChild(events1);
-        events2.textContent = towns[6].events[2]
+        events2.textContent = towns[0].events[2]
         ul1.appendChild(events2);
+        EventCard1.appendChild(br);
         
         document.querySelector("div#EventCard1").appendChild(EventCard1);
 

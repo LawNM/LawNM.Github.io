@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap'); */
 /* ---------------------- General CSS ------------------------ */
 
-@media (max-width: 2000px){
+
 #eventTicker{
     background-color:rgb(100, 190, 226);
     color: black;
@@ -88,8 +88,9 @@ justify-self: center;
     left: 5em;
 }
 .pancakesPic{
-    float: right;
+    display: block;
     width: 35%;
+ margin: auto auto 30px auto;
 }
 /* .summary p{
     max-width: 200px;
@@ -126,6 +127,12 @@ width: 90%;
     grid-row: 5/6;
     width: 90%;
     margin: auto;
+    justify-content: center;
+    justify-items: center;
+}
+.article img{
+    justify-self: center;
+    text-align: center;
 }
 .grid-containerGal{
     display: grid;
@@ -407,7 +414,9 @@ div.caption{
         justify-self: center;
         font-size: larger;
     }
-}
+    #EventCard1{
+        margin-bottom: 15px;
+    }
 
 
 /* ---------------------- Nav CSS ------------------------ */
