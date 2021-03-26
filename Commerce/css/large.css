@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+/* ---------------------- General CSS ------------------------ */
+*{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+p, ul{
+    font-size: 18px
+}
+
+body{
+    margin: 0;
+}
+h1{
+    font-family: Volkhov, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+h2, h3, h4, h5, h6{
+    font-family: Volkhov, 'Times New Roman', Times, serif;
+}
+header{
+   background-color:  rgb(181, 205, 238);
+   padding-top: 1px;
+}
+main{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+}
+footer{
+    background-color: rgb(181, 205, 238);
+    padding-bottom: 10px;
+}
+#color1{
+    background-color:  rgb(181, 205, 238);
+    border: solid black 3px;
+}
+
+#color2{
+    background-color: white;
+    border: solid black 3px;
+}
+
+#color3{
+    background-color: black;
+    border: solid black 3px;
+}
+
+nav ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+}
+/* nav ul li{
+    display: inline-block;
+} */
+nav a{
+    padding: 2rem;
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+nav ul li a:link{
+    color:black;
+}
+nav ul li a:visited{
+    color: black;
+}
+.navBar li:first-child{
+display: none;
+}
+img{
+    border: black dashed 2px;
+}
+#footInfo{
+    text-align: center;
+}
+ul{
+    list-style-type: square;
+}
