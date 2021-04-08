@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Join Us
+        </title>
+
+
+    </head>
+    <header>
+        <h1>
+            City of Rexburg Chamber of Commerce 💰
+        </h1>
+        <link rel = "stylesheet" href = "css/large.css">
+        <link rel = "stylesheet" href = "css/medium.css">
+        <link rel = "stylesheet" href = "css/small.css">
+    </header>
+
+    <nav>
+
+        <ul class="navBar">
+            <li><a href="#" onclick="toggleMenu()">&#8801;</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li class="active"><a href="join.html">Join Us</a></li>
+            <li><a href="stores.html">Directory</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+        <script src="./js/toggleMenu.js"> </script>
+    </nav>
+
+    <body>
+
+        <h1>
+            The City of Rexburg Idaho
+        </h1>
+
+        <div class="grid-container">
+
+
+        <!-- <div class="banner">
+    
+            <picture class>
+        
+                <source
+                srcset="./tatersHero.jpeg"
+                media="(max-width:700px)"
+                >
+                <source
+                srcset="./tatersHero.jpeg"
+                media="(min-width:701px) and (max-width:1100px)"
+                >
+                <source
+                srcset="./tatersHero.jpeg"
+                media="(min-width:1101px)"
+                >
+                                  
+                <img src="./tatersHero.jpeg" alt="Picture of Preston Idaho">
+                </picture>
+        </div> -->
+
+
+        <div id="joinUsForm">
+            <div id="joinForm">
+            <form action="thanks.html">
+    
+                <div class="input-box">
+                <label> First Name:<br>
+                <input type="text" placeholder="First Name" name="flName" minlength="3" pattern="[A-Za-Z]" required><br>
+                </label>
+                </div>
+
+                <div class="input-box">
+                 <label> Last Name:<br>
+                <input type="text" placeholder="Last Name" name="lName" minlength="3" pattern="[A-Za-Z]" required><br>
+                </label>
+                </div>
+
+            
+                <div class="input-box">
+                <label> Title:<br>
+                <input type="text" placeholder="Title" name="Title" minlength="3" pattern="[A-Za-Z]"><br>
+                </label>
+                </div>
+
+                <div class="input-box">
+                <label> E-Mail:<br>
+                <input type="email" placeholder="E-mail | example@faux.net" name="email" required><br>
+                </label>
+                </div>
+                
+                <div class="input-box">
+                <label> Cell Phone:<br>
+                <input type="tel" placeholder="Phone" name="phone"><br>
+                </label>
+                </div>
+
+                <div class="input-box">
+                <label>  Businesses Name:<br>
+                <input type="text" placeholder="Businesses Name" name="BusinessName" minlength="3" pattern="[A-Za-Z0-9]" required><br>
+                </label>
+                </div>
+
+                <div class="input-box">
+                <label>  Businesses Website:<br>
+                <input type="text" placeholder="Businesses Website" name="BusinessWebsite" minlength="5" pattern="[A-Za-Z0-9.-_~]"><br>
+                </label>
+                </div>
+
+                <div class="input-box2">    
+                <label>Select a Membership:</label><br>
+                <label>
+                    <input type="radio" name="danger" value="Gold"> Gold
+                </label><br>
+                <label>
+                    <input type="radio" name="danger" value="Silver"> Silver
+                </label><br>
+                <label>
+                    <input type="radio" name="danger" value="Bronze"> Bronze
+                </label><br>
+                <label>
+                    <input type="radio" name="danger" value="NonProfit"> Non-Profit
+                </label>
+                </div>
+
+            
+                
+                <div class="comments">
+                    <br>
+                    <label> Business Description</label>
+
+                        <hr>
+                <textarea name="comments" rows="14" cols="100"></textarea>
+            
+                </div>
+
+                <p>All fields with the aesterisk * are required.</p>
+                <input type="submit" value="Submit" class="SubmitInput">
+
+            
+                </form>
+
+           
+        </div>
+
+        </div>
+        <h2 id="memberTitle">Membership Tiers:</h2>
+        <ul id="metalChoices">
+            <li>Bronze</li>
+            <ul>
+                <li>
+                    Membership in the Chamber of Commerce
+                </li>
+                <li>
+                    Acesss to meetings and our exclusive LinkedIn Groups
+                </li>
+                <li>
+                    Flyers and Brochers located at our Building
+                </li>
+            </ul>
+            <li>Silver</li>
+            <ul>
+                <li>
+                    Everything In Bronze, Plus:
+                </li>
+                <li>
+                   A dedicated Section in the Newsletter
+                </li>
+                <li>
+                    A yearly Media Blitz
+                </li>
+                <li>
+                    Free Promotional Swag
+                </li>
+            </ul>
+            <li>Gold</li>
+            <ul>
+                <li>
+                    Everything In Silver, Plus:
+                </li>
+                <li>
+                   A seat on the chamber Board
+                </li>
+                <li>
+                    A quarterly Media Blitz
+                </li>
+                <li>
+                    A place on the annual fun run t-shirt
+                </li>
+            </ul>
+            <li>Non-Profit</li>
+            <ul>
+                <li>
+                    Everything in the Silver Tier (Only For Non-Profits)
+                </li>
+            
+            
+        </ul>
+
+        </ul>
+
+        </div>
+<br>
+
+    </body>
+
+
+    <footer>
+        <br>
+        <p> &copy; <span id = "year"></span> | Nathan Lawrence | Idaho </p> 
+         <script src = "https://lawnm.github.io/getYear.js"> </script>
+    </footer>
+</html>

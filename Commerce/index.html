@@ -1,43 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
-
-<!-- --dark-sienna: #3c1518ff;
---blood-red: #69140eff;
---rust: #a44200ff;
---bronze: #d58936ff;
---maximum-yellow: #fffb46ff; */ -->
-        </style>
-
+        <title>
+            Homepage
+        </title>
     </head>
     <header>
         <h1>
             City of Rexburg Chamber of Commerce 💰
         </h1>
-        <link rel = "stylesheet" href = "css/large.css">
-        <link rel = "stylesheet" href = "css/medium.css">
-        <link rel = "stylesheet" href = "css/small.css">
+        <link rel = "stylesheet" href = "./css/large.css">
+        <link rel = "stylesheet" href = "./css/medium.css">
+        <link rel = "stylesheet" href = "./css/small.css">
     </header>
 
     <nav>
 
         <ul class="navBar">
             <li><a href="#" onclick="toggleMenu()">&#8801;</a></li>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="soda_springs.html">Soda Springs</a></li>
-            <li><a href="fish_Haven.html">Fish Haven</a></li>
-            <li><a href="stormCenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="stores.html">Directory</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
         </ul>
         <script src="./js/toggleMenu.js"> </script>
     </nav>
 
     <body>
-
-    </body>
-    <footer>
+        <div class="grid-container">
+        <h1 id="pageHeadHome">
+            Rexburg's Chamber of Commerce
+        </h1>
+        <div class="banner">
+    
+            <picture class>
         
+                <source
+                srcset="./images/LandingHeroSmol.jpeg"
+                media="(max-width:700px)"
+                >
+                <source
+                srcset="./images/LandingHeroMid.jpeg"
+                media="(min-width:701px) and (max-width:1100px)"
+                >
+                <source
+                srcset="./images/LandingHero.jpeg"
+                media="(min-width:1101px)"
+                >
+                                  
+                <img src="./images/LandingHero.jpeg" alt="A door with the Chamber of Commerce Logo.">
+                </picture>
+        </div>
+
+
+        <div id="aboutUs">
+            <h2>
+                What we do
+            </h2>
+            <ul>
+                <li>Strive to Help your Business grow.</li>
+                <li>Support the local community.</li>
+                <li>Invest back in the the companies.</li>
+                <li>Provide a network for Rexburg.</li>
+                <li>Act as an adovcate for owners.</li>
+                <li>Give Businesses a greater say in the going ons of Rexburg.</li>
+                <li>Promote great local Businesses, Like <em><strong>You!</strong></em></li>
+            </ul>
+        </div>
+
+        <div id="benefits">
+            <h2>
+                Benefits
+            </h2>
+            <ul>
+                <li>Discounts of a great variety.</li>
+                <li>Better credibility within the community.</li>
+                <li>Chamber Meetings.</li>
+                <li>Great networking opportunties.</li>
+                <li>Reduced Marketing efforts.</li>
+                <li id="actionQuestion"><strong>Do you like what you hear?</strong></li>
+            </ul>
+            <div id="joinUs">
+                <a href="join.html">  <button>
+                    <em>JOIN TODAY!</em>
+                </button></a>
+            </div>
+        </div>
+
+        <h2 id="divider">
+           Featured Businesses
+        </h2>
+        <div id="featured-1">
+            <h3>
+                Locksmithy
+            </h3>
+            <img src="./images/lock.jpeg" alt="A lockstore">
+            <p>
+                Ark: Lock & Security, got their start in 1982 when the owner John Locke found that he was 
+                abosulutly fascinated with how locks worked. It was simple thing he got some bobby pins and went
+                to town on every pin and tumbler lock in the house. Unfourtanly after he broke the front door Lock.
+                his parents got quite upset. So, then after a month long grounding John was given some old 
+                padlocks. After much practice he was given an appretinceship and opened his shop after graduating 
+                high school.
+            </p>
+        </div>
+        <div id="featured-2">
+            <h3>
+                Paramount 5
+            </h3>
+            <img src="./images/theater.jpeg" alt="A theatre">
+            <p>
+                What started as backyard Theater turned into the Paramount 5. Phil loved movies, he loved watching them
+                and sharing them with others. So he decided that he would get a projector and show movies in his backyard.
+                At first the only people were his immediate family. Soon it became friends and their families. What were
+                once weekly showing became double features. Then Friday evenings and all day saturday. When Phil had saved enough money
+                He bought a closed two screen theater. After more succusses he had the current five screen theater built.
+            </p>
+        </div>
+        <div id="featured-3">
+            <h3>
+                GamePulse
+            </h3>
+            <img src="./images/pulse.jpeg" alt="A gamestore">
+            <p>
+                When Gary Game was in school he loved to play Dungeons and Dragons and card games. It was and still is 
+                his favoriate thing to do. Sadly, he got bullied a lot. So he after he graduaterd college with a degree
+                in Business managment he decided to open up his own gamestore. This was to be a place for all people.
+                A place where you could show up, be yourself and just enjoy the things you enjoy without anyone to
+                make you feel bad about it.
+            </p>
+        </div>
+        <div id="Events">
+            <h2>
+               Events
+            </h2>
+            <ul>
+                <li>04/15/21 Support Day</li>
+                <li>04/19/21 Chamber Meeting</li>
+                <li>04/30/21 Festival of Lights</li>
+                <li>05/01/21 May Day</li>
+                <li>05/17/21 Chamber Meeting</li>
+                <li>06/14/21 Chamber Meeting</li>
+                <li>06/21/21 Start of Rexburg Days</li>
+                <li>07/04/21 Independence Day!</li>
+            </ul>
+        </div>
+        <div id="Weather">
+            <h2 id="weatherTitle">
+                Weather
+            </h2>
+                <p id="current-temp"></p>
+                <div id="line2">
+                <p id="left2">Currently:&nbsp;</p> <p id="description"></p>
+                </div>
+                <div id="line3"> 
+                <p id="left3">Humidity:&nbsp;</p> <p id="humidity"></p>
+                </div>
+                <div id="line4"> 
+                <p id="left4">Wind Speed:&nbsp;</p> <p id="windSpeed"></p>
+                </div>
+                <div id="line5"> 
+                 <p id="left5">Wind Chill:&nbsp;</p> <p id="output"></p>
+                </div>
+
+        </div>
+        <script src="./js/weatherReader.js"></script>
+        <script src="./js/windchill.js"></script>
+        </div>
+<br>
+    </body>
+
+    <footer>
+        <br>
+        <p> &copy; <span id = "year"></span> | Nathan Lawrence | Idaho </p> 
+         <script src = "https://lawnm.github.io/getYear.js"> </script>
     </footer>
 </html>

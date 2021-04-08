@@ -2,8 +2,14 @@
 /* ---------------------- General CSS ------------------------ */
 
 @media (max-width: 1100px){
-    
-    
+    .grid-container{
+        display: grid;
+        gap: 0.5em;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        width: 67%;
+        margin: auto;
+    }
     nav ul{
         
         list-style: none;
@@ -27,5 +33,132 @@
     .navBar li:first-child{
     display: none;
     }
+
+    /* Stores */
+    .cards{
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 0.65rem;
+    }                
+     .cardNo0 {
+        grid-column: 1/2;
+        text-align: center;
+    }
+    .cardNo1{
+        grid-column: 2/3;
+        text-align: center;
+    }
+    .cardNo2{
+        grid-column: 1/2;
+        text-align: center;
+    }
+    .cardNo3{
+        grid-column: 2/3;
+        text-align: center;
+    }
+    .cardNo4 {
+        grid-column: 1/2;
+        text-align: center;
+    }
+    .cardNo5{
+        grid-column: 2/3;
+        text-align: center;
+    }
+    .cardNo6{
+        grid-column: 1/2;
+        text-align: center;
+    }
+    .cardNo7{
+        grid-column: 2/3;
+        text-align: center;
+    }
     
-}
+
+/* Home */
+#aboutUs{
+    grid-column: 2/6;
+    grid-row: 3/4;
+    justify-self: center;
+    background-color:rgb(144, 182, 235);
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+    #benefits{
+        grid-column: 2/6;
+        grid-row: 4/5;
+        justify-self: center;
+        background-color:rgb(144, 182, 235);
+        padding-left: 5px;
+    padding-right: 5px;
+    }
+    #divider{
+        grid-column: 1/7;
+        grid-row: 5/6;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #featured-1{
+        grid-column: 2/6;
+        grid-row: 6/7;
+    }
+    #featured-2{
+        grid-column: 2/6;
+        grid-row: 7/8;
+    }
+    #featured-3{
+        grid-column: 2/6;
+        grid-row: 8/9;
+    }
+
+    #Events{
+        grid-column: 2/6;
+        grid-row: 9/10;
+        background-color:rgb(144, 182, 235);
+        }
+        
+        #Weather{
+            grid-column: 2/6;
+            grid-row: 10/11;
+            background-color:rgb(144, 182, 235);
+            display: grid;
+            grid-template-rows: 45.84px
+        }
+  
+
+    /* City page */
+    #Events1{
+        grid-column: 2/6;
+        grid-row: 6/7;
+        background-color:rgb(144, 182, 235);
+        }
+        #demographics{
+            grid-column: 2/6;
+            grid-row: 7/8;
+            background-color:rgb(144, 182, 235);
+            }
+/* Contact us */
+            #contactInfo{
+                grid-row: 3/4;
+                grid-column: 2/4;
+                justify-self: center;
+            }
+            #contactInfo li{
+               list-style-type: none;
+           
+            }
+            #boardMembers{
+               grid-row: 3/4;
+               grid-column: 4/6;
+               justify-self: end;
+            }
+            .map{
+                grid-row: 4/5;
+                grid-column: 2/6;
+                justify-self: center;
+             }
+
+            }
+            

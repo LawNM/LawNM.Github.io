@@ -2,6 +2,8 @@
 /* ---------------------- General CSS ------------------------ */
 
 @media (max-width: 700px){
+
+
     
 nav ul{
     
@@ -33,4 +35,67 @@ nav a{
     display: block;
 }
 
+/* Stores */
+.cards{
+    grid-column: 1/2;
+    display: block;
+}                
+ .cardNo0 {
+    margin: 0.65rem;
+    text-align: center;
+}
+.cardNo1{
+    margin: 0.65rem;
+    text-align: center;
+}
+.cardNo2{
+    margin: 0.65rem;
+    text-align: center;
+}
+.cardNo3{
+    margin: 0.65rem;
+    text-align: center;
+}
+.cardNo4 {
+    margin: 0.65rem;
+    text-align: center;
+}
+.cardNo5{
+    margin: 0.65rem;
+    text-align: center;
+}
+.cardNo6{
+    margin: 0.65rem;
+    text-align: center;
+}
+.cardNo7{
+    margin: 0.65rem;
+    text-align: center;
+}
+
+/* Grid-cotainer */
+.grid-container{
+    display: grid;
+}
+
+/* contact */
+#contactInfo{
+    grid-row: 4/5;
+    grid-column: 3/5;
+    justify-self: center;
+}
+#contactInfo li{
+   list-style-type: none;
+
+}
+#boardMembers{
+   grid-row: 5/6;
+   grid-column: 3/5;
+   justify-self: start;
+}
+.map{
+    grid-row: 6/7;
+    grid-column: 2/6;
+    justify-self: center;
+ }
 }

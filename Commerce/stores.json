@@ -1,0 +1,63 @@
+{
+    "stores":[
+        {
+            "name": "GamePulse",
+            "owner": "Gary Game",
+            "phone": "555-1234",
+            "address": "678 Super St",
+            "hours": "M-Su, 3 AM - 9PM ",
+            "pic": "./images/games.jpg"
+        },
+        {
+            "name": "Hair We Are",
+            "owner": "Paula Perm",
+            "phone": "555-9999",
+            "address": "541 Salon St",
+            "hours": "Th-Sa, 10 AM - 6:30 PM ",
+            "pic": "./images/Salon.jpg"
+        },
+        {
+            "name": "Ark: Lock & Security",
+            "owner": "Garret Gator",
+            "phone": "555-2453",
+            "address": "385 Food Ave",
+            "hours": "M-Sa, 11AM - 9PM",
+            "pic": "./images/lock.jpeg"
+        },
+        {
+            "name": "Paramount 5",
+            "owner": "Freddie Filmbuff",
+            "phone": "555-7337",
+            "address": "Hollywood Blvd",
+            "hours": "M-Sa, 11AM - 9PM",
+            "pic": "./images/theater.jpeg"
+        },
+        {
+            "name": "Doughnuts",
+            "owner": "Pamela Pastry",
+            "phone": "555-4834",
+            "address": "Yummy Ct",
+            "hours": "M-Sa, 12pm - 5PM",
+            "pic": "./images/Donughts.jpg"
+        },
+        {
+            "name": "Mikes Music",
+            "owner": "Michael Musically",
+            "phone": "555-5437",
+            "address": "Bassdrop Ct",
+            "hours": "M-Tu, Th-Sa, 10am - 7PM",
+            "pic": "./images/music.jpeg"
+        },
+        {
+            "name": "Alpine Jewlery",
+            "owner": "Gina Gem",
+            "phone": "555-3834",
+            "address": "Diamond Pl",
+            "hours": "M-Sa, 12pm - 6PM",
+            "pic": "./images/gems.jpg"
+        }
+
+        
+    ]
+
+}

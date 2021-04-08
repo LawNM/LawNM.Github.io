@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+        <html lang="en-US">
+            <head>
+                <meta charset="utf-8">
+                <title>
+                    Contact Us
+                </title>
+
+    </head>
+    <header>
+        <h1>
+            City of Rexburg Chamber of Commerce 💰
+        </h1>
+        <link rel = "stylesheet" href = "css/large.css">
+        <link rel = "stylesheet" href = "css/medium.css">
+        <link rel = "stylesheet" href = "css/small.css">
+    </header>
+
+    <nav>
+
+        <ul class="navBar">
+            <li><a href="#" onclick="toggleMenu()">&#8801;</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="stores.html">Directory</a></li>
+            <li class="active"><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+        <script src="./js/toggleMenu.js"> </script>
+    </nav>
+
+    <body>
+        <div class="grid-container">
+        <h1 id="contactusHeader">
+            Get in Contact
+        </h1>
+
+        <div id="contactForm">
+            <form action="thanks2.html">
+    
+                <div class="input-box">
+                <label> *Full Name:<br>
+                <input type="text" placeholder="Full Name" name="fullName" minlength="5" pattern="[A-Za-Z]" required><br>
+                </label>
+                </div>
+
+                <div class="input-box">
+                <label> E-Mail:<br>
+                <input type="email" placeholder="E-mail | example@faux.net" name="email" required><br>
+                </label>
+                </div>
+                
+                <div class="input-box">
+                <label> *Phone:<br>
+                <input type="tel" placeholder="Phone" name="phone" required><br>
+                </label>
+                </div>
+                
+                <div class="comments">
+                    <br>
+                    <label> Additional comments</label>
+                        <hr>
+                <textarea name="comments" rows="14" cols="100"></textarea>
+           
+                </div>
+                <br>
+                <input type="submit" value="Submit" class="SubmitInput">
+                </form>
+                
+                <script src="./js/spanchanger.js"></script>
+
+           
+        </div>
+
+
+        <div id="contactInfo">
+            <h2>
+                Contact information
+            </h2>
+            <ul id="contactList">
+                <li>☎:<br> 555-1234</li>
+                <li><span class="makebigger">✉</span>:<br> Rexchamber@gmail.com</li>
+                <li><span class="makebigger">⌂</span>:<br> 1234 Viking St</li>
+                </ul>
+        </div>
+        <div id="boardMembers">
+            <h2>
+                Board Members
+            </h2>
+            <ul>
+                <li>
+                    Phil Phillipson
+                </li>
+                <li>
+                    Johnny Lingo
+                </li>
+                <li>
+                    Karen Karlsbad
+                </li>
+                <li>
+                    John Wu
+                </li>
+                <li>
+                    Patrcia Patterson
+                </li>
+            </ul>    
+        </div>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46051.89887738041!2d-111.82320231674545!3d43.83004510345833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1617772620773!5m2!1sen!2sus" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+<br>
+    </body>
+
+    <footer>
+        <br>
+        <p> &copy; <span id = "year"></span> | Nathan Lawrence | Idaho </p> 
+         <script src = "https://lawnm.github.io/getYear.js"> </script>
+    </footer>
+</html>
