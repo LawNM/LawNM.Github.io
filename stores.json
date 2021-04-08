@@ -1,0 +1,56 @@
+{
+    "stores":[
+        {
+            "name": "Cool Comics",
+            "owner": "Guy Game",
+            "phone": "555-1234",
+            "address": "678 Super St",
+            "hours": "M-Su, 3 AM - 9PM "
+        },
+        {
+            "name": "Hair We Are",
+            "owner": "Paula Perm",
+            "phone": "555-9999",
+            "address": "541 Salon St",
+            "hours": "Th-Sa, 10 AM - 6:30 PM "
+        },
+        {
+            "name": "Gator Jacks",
+            "owner": "Garret Gator",
+            "phone": "555-2453",
+            "address": "385 Food Ave",
+            "hours": "M-Sa, 11AM - 9PM"
+        },
+        {
+            "name": "Paramount 5",
+            "owner": "Freddie Filmbuff",
+            "phone": "555-7337",
+            "address": "Hollywood Blvd",
+            "hours": "M-Sa, 11AM - 9PM"
+        },
+        {
+            "name": "Sweets N Treats",
+            "owner": "Carol Candy",
+            "phone": "555-4834",
+            "address": "Gumdrop Ct",
+            "hours": "M-Sa, 12pm - 5PM"
+        },
+        {
+            "name": "Suits N Stuff",
+            "owner": "Daniel Dapper",
+            "phone": "555-5437",
+            "address": "Gumdrop Ct",
+            "hours": "M-Tu, Th-Sa, 10am - 7PM"
+        },
+        {
+            "name": "Barber Pop Shop",
+            "owner": "Bob Barber",
+            "phone": "555-3834",
+            "address": "Hair Pl",
+            "hours": "M-Sa, 12pm - 6PM"
+        }
+
+        
+    ]
+
+}
